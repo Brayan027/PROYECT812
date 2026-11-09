@@ -1,0 +1,11 @@
+{
+  "name": "gestor-proyectos-suite",
+  "version": "1.0.0",
+  "description": "Sistema de gestión de proyectos, tareas pendientes, bitácora diaria y calendario",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  }
+}
